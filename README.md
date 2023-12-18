@@ -1,6 +1,6 @@
 # Explore-US-Bikeshare-Data
 
-The second project in Programming for Data Science Nanodegree Program in Udacity.
+The second project in Programming for Data Science Nanodegree Program in Python Udacity.
 
 # Overview
 
