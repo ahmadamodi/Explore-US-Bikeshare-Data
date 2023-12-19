@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 """
-the begin of the code
+the begin of the code.
 """
 
 CITY_DATA = {
