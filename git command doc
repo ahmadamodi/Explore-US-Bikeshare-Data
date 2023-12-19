@@ -73,3 +73,62 @@ zsh: no such file or directory: https://github.com/ahmadamodi/Explore-US-Bikesha
 zsh: command not found: get
 (base) a7cb@MacNodi My-repo % git remote add origin https://github.com/ahmadamodi/Explore-US-Bikeshare-Data.git
 (base) a7cb@MacNodi My-repo % git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 701 bytes | 701.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ahmadamodi/Explore-US-Bikeshare-Data.git
+   380f514..1e32040  main -> main
+branch 'main' set up to track 'origin/main'.
+(base) a7cb@MacNodi My-repo % nano Git Commands Documentation
+
+(base) a7cb@MacNodi My-repo % git add git\ command\ doc 
+(base) a7cb@MacNodi My-repo % 
+(base) a7cb@MacNodi My-repo % git add git\ command\ doc 
+(base) a7cb@MacNodi My-repo % git branch
+* main
+(base) a7cb@MacNodi My-repo % git branch test         
+(base) a7cb@MacNodi My-repo % git branch test         
+fatal: a branch named 'test' already exists
+(base) a7cb@MacNodi My-repo % git checkout test         
+
+M	.DS_Store
+A	git command doc
+Switched to branch 'test'
+(base) a7cb@MacNodi My-repo % git merge test         
+Already up to date.
+(base) a7cb@MacNodi My-repo % git log
+
+commit 1e32040dd1c6a1c0ee7faafadbb738f38111066b (HEAD -> test, origin/main, main)
+Author: Ahmad Amoudi <a7cb@MacNodi.local>
+Date:   Fri Dec 15 05:37:11 2023 +0300
+
+    Commit message
+
+commit 380f5145931b45021ad85a73bf7799d80a7eb489
+Author: ahmadamodi <153784238+ahmadamodi@users.noreply.github.com>
+Date:   Thu Dec 14 04:51:15 2023 +0300
+
+    Update README.md
+
+commit bd1cf937ac13e256b0d4c2f5d3a75c2591f2ba6e
+Author: ahmadamodi <153784238+ahmadamodi@users.noreply.github.com>
+Date:   Thu Dec 14 04:35:34 2023 +0300
+
+    Add files via upload
+
+commit 6c3a0de0e1fdb5761f62735542eb2eb557649b9d
+Author: ahmadamodi <153784238+ahmadamodi@users.noreply.github.com>
+Date:   Thu Dec 14 04:06:55 2023 +0300
+
+    Initial commit
+(base) a7cb@MacNodi My-repo % git clone https://github.com/ahmadamodi/Explore-US-Bikeshare-Data.git
+Cloning into 'Explore-US-Bikeshare-Data'...
+remote: Enumerating objects: 14, done.
+remote: Counting objects: 100% (14/14), done.
+remote: Compressing objects: 100% (13/13), done.
+remote: Total 14 (delta 2), reused 4 (delta 0), pack-reused 0
+Receiving objects: 100% (14/14), 5.60 KiB | 2.80 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
