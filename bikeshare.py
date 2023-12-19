@@ -2,6 +2,9 @@ import time
 import pandas as pd
 import numpy as np
 
+"""
+begin of the code
+"""
 
 CITY_DATA = {
     'Chicago': 'chicago.csv',
